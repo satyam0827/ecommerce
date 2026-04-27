@@ -1,0 +1,45 @@
+:root {
+  --bg: #f6f7f3;
+  --panel: #f8eaea;
+  --text: #14241a;
+  --muted: #5a6b61;
+  --border: #dde5de;
+  --accent: #18da52;
+  --accent-soft: rgba(30, 127, 59, 0.15);
+  --tab-bg: #f0f4f1;
+  --shadow: 0 24px 50px -36px rgba(20, 36, 26, 0.45);
+  --shadow-soft: 0 12px 24px -14px rgba(20, 36, 26, 0.45);
+
+  font: 16px/1.6 'Sora', system-ui, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #eef4ed, #f6f7f3 45%, #f9faf7);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+}
